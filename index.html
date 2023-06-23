@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissor</h1>
+  </header>
+  <div class="startcontainer" id="startcontainer">
+    <button id="startbutton">Start Game</button>
+  </div>
+  <main id="wrapper">
+        <div class="container">
+            <div class="player">
+              <h1>PLAYER:</h1>
+              <img src="assets/user.png">
+            </div>
+            <h2 id="playerScore">Score: </h2>
+            <div class="container-selection">
+              <div class="gameselection rock" id="playerrock"><img class="selection" id="rockimg" src="assets/rock.png"></div>
+              <div class="gameselection paper" id="playerpaper"><img class="selection" id="paperimg" src="assets/paper.png"></div>
+              <div class="gameselection scissor" id="playerscissor"><img class="selection" id="scissorimg" src="assets/scissors.png"></div>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="player">
+            <h1>COMPUTER:</h1>
+            <img src="assets/robot.png">
+          </div>
+          <h2 id="computerScore">Score: </h2>
+          <div class="container-selection">
+            <div class="gameselection rock" id="computerrock"><img src="assets/rock.png"></div>
+            <div class="gameselection paper" id="computerpaper"><img src="assets/paper.png"></div>
+            <div class="gameselection scissor" id="computerscissor"><img src="assets/scissors.png"></div>
+          </div>
+      </div>
+  </main>
+  <footer>
+    <p id="gameupdates"></p>
+    <button id="resetbutton">Play Again?..</button>
+  </footer>
+  <script src="practice.js"></script>
+</body>
+</html>
